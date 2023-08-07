@@ -1,0 +1,87 @@
+:root {
+  
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(2,0,36,1) 100%);
+
+  text-align: center;
+
+
+}
+
+body {
+  align-items: top;
+  position: relative;
+  
+}
+
+#link {
+  position: relative;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100px;
+  height: 10px;
+
+  }
+
+#link:hover {
+   color: #ff0000;
+}
+
+p {
+  color:#bbb
+}
+
+h1 {
+  text-align: center;
+  line-height: 1.1;
+}
+
+#app, #about, #recipes, #tantuni, #veal, #abak, #doner, #duck, #menemen {
+  align-self: center;
+  position: relative;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+
+}
+
+button {
+  align-items: end;
+  padding: 10px;
+}
+
+#card {
+  display: block;
+  position: relative;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+#rsp {
+  border-radius: 30px;
+  width: auto;
+  height: auto;
+}
+
+img {
+  border-radius: 50px;
+  width:  500px;
+  height: 300px;
+  object-fit: cover;
+  justify-content: center;
+}
+
+footer {
+  border-top: 4px solid #bbb;
+  border-bottom: 4px solid #bbb;
+  border-radius: 2px;
+  position: relative;
+  align-self: flex-end;
+  text-align: center;
+}
